@@ -1,0 +1,25 @@
+.partner {
+    margin-top: 36px;
+    margin-left: 122px;
+    margin-right: 124px;
+}
+.partner-content {
+    margin-top: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    line-height: 72px !important;
+    /* identical to box height, or 180% */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #1D2538;
+}
+
+.partner-wrapper{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px
+}

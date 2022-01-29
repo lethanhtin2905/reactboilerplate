@@ -5,25 +5,17 @@ export const GlobalStyle = createGlobalStyle`
   html,
   body {
     height: 100%;
-    width: 100%;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.5;
   }
 
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding-top: ${StyleConstants.NAV_BAR_HEIGHT};
-    background-color: ${p => p.theme.background};
-  }
-
-  body.fontLoaded {
-    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
   }
   
-  p,
-  label {
-    line-height: 1.5em;
-  }
-
   input, select, button {
     font-family: inherit;
     font-size: inherit;

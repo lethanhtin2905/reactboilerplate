@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { NavBar } from 'app/components/NavBar';
-import { Masthead } from './Masthead';
-import { Features } from './Features';
-import { PageWrapper } from 'app/components/PageWrapper';
+import { Header } from 'app/components/Header';
+import { Intro } from 'app/components/Home/Intro';
+import { Partners } from 'app/components/Home/Partners';
+import { Tutorial } from 'app/components/Home/Tutorial';
+import { Features } from 'app/components/Home/Features';
+import { Footer } from 'app/components/Footer';
 
 export function HomePage() {
   return (
@@ -15,11 +17,12 @@ export function HomePage() {
           content="A React Boilerplate application homepage"
         />
       </Helmet>
-      <NavBar />
-      <PageWrapper>
-        <Masthead />
-        <Features />
-      </PageWrapper>
+      <Header />
+      <Intro />
+      <Partners />
+      <Tutorial />
+      <Features />
+      {/* <Footer /> */}
     </>
   );
 }

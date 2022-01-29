@@ -1,0 +1,26 @@
+.ant-menu-horizontal {
+    border-bottom: none !important;
+}
+
+.header{
+    margin-top: 36px;
+}
+
+.header-logo {
+    margin-left: 122px;
+}
+
+.header-nav {
+    margin-right: 124px;
+}
+
+.nav-item {
+    color: rgba(153, 159, 174, 1)!important;
+    padding: 0 15px !important;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.active {
+    color: rgba(163, 110, 186, 1) !important;
+}
